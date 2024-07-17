@@ -4,6 +4,14 @@
   overflow-x: hidden;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+ 
+}
+
+body {
+  background-image: url("./mercedes-amg-g-class-with-v12-engine-from-brabus.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 nav ul {
@@ -34,6 +42,7 @@ nav ul li:hover {
   width: 100vw;
   height: 80vh;
   overflow: hidden;
+  background: rgba(0, 0, 0, 0.5); /* Added to improve readability */
 }
 
 .background-video {
@@ -81,8 +90,38 @@ nav ul li:hover {
 }
 
 #about p {
-  font: 26px;
+  font-size: 26px;
   text-align: center;
   width: 700px;
   line-height: 30px;
+}
+
+#work .job {
+  margin: 20px 0;
+}
+
+#resume .activity {
+  margin: 20px 0;
+}
+
+footer ul {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+footer ul li {
+  list-style: none;
+  font-weight: 600;
+  font-size: 16px;
+  color: black;
+}
+
+footer ul li:hover {
+  color: blueviolet;
+  cursor: pointer;
+  transition: 0.2s;
 }
